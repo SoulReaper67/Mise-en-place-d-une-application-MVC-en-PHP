@@ -1,0 +1,2 @@
+{"private":true,"scripts":{"build":"sass --quiet-deps --silence-deprecation=import,global-builtin,color-functions --style=compressed --load-path=node_modules assets/site.scss public/assets/site.css --no-source-map && node -e \"require('fs').copyFileSync('node_modules/bootstrap/dist/js/bootstrap.bundle.min.js','public/assets/bootstrap.bundle.min.js')\""},"dependencies":{"bootstrap":"5.3.8","sass":"1.93.3"}}
+

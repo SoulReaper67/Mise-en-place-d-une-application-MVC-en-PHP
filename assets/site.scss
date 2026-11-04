@@ -1,0 +1,14 @@
+$body-bg: #f1f8fc;
+$primary: #0074c7;
+$secondary: #00497c;
+$dark: #384050;
+$danger: #cd2c2e;
+$success: #82b864;
+@import "bootstrap/scss/bootstrap";
+
+body { min-height: 100vh; display: flex; flex-direction: column; }
+header { border-bottom: 1px solid rgba($secondary, .15); background: white; }
+main { flex: 1; }
+.table th { white-space: nowrap; }
+.table td { vertical-align: middle; }
+.card { border-color: rgba($secondary, .15); }

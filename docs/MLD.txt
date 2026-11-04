@@ -1,0 +1,9 @@
+AGENCE (id PK, nom UNIQUE)
+EMPLOYE (id PK, nom, prenom, telephone, email UNIQUE, mot_de_passe, role)
+TRAJET (id PK, agence_depart_id FK → AGENCE.id, agence_arrivee_id FK → AGENCE.id,
+        auteur_id FK → EMPLOYE.id, depart, arrivee, places_totales, places_disponibles)
+
+Chaque trajet référence une agence de départ, une agence d’arrivée et un auteur.
+Une agence peut être liée à zéro ou plusieurs trajets pour chacun des deux rôles.
+Un employé peut proposer zéro ou plusieurs trajets.
+
