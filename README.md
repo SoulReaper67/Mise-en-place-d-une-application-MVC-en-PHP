@@ -71,3 +71,4 @@ Pour modifier la palette, éditer les variables Sass avant l’import Bootstrap,
 
 Pour vérifier les droits à la main : en visiteur, contrôler que les détails sont masqués. En employé, créer un trajet puis le modifier et le supprimer. En administrateur, vérifier les quatre trajets initiaux, y compris les trajets complet et passé, puis créer, renommer et supprimer une agence de test.
 
+`TEST_HTTP_URL` permet aussi de lancer le test HTTP des droits entre deux comptes sur une instance locale de démonstration dédiée aux tests. Démarrer cette instance avec le jeu de démonstration, définir la variable à son URL (par exemple http://127.0.0.1:8000), puis lancer `composer test`. Le test crée puis supprime un trajet temporaire.
