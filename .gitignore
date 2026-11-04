@@ -1,0 +1,7 @@
+/vendor/
+/node_modules/
+/.phpunit.cache/
+/config/local.php
+/database/import/users.txt
+/database/import/agences.txt
+/.phpstan-cache/
